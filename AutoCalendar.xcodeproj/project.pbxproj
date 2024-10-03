@@ -44,6 +44,7 @@
 		2832EB5B2CAE795A00974D32 /* AutoCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2832EB5F2CAE795A00974D32 /* AutoCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCalendarUITests.swift; sourceTree = "<group>"; };
 		2832EB612CAE795A00974D32 /* AutoCalendarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCalendarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2832EB6E2CAE79B900974D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		2832EB432CAE795900974D32 /* AutoCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				2832EB6E2CAE79B900974D32 /* Info.plist */,
 				2832EB442CAE795900974D32 /* AutoCalendarApp.swift */,
 				2832EB462CAE795900974D32 /* ContentView.swift */,
 				2832EB482CAE795A00974D32 /* Assets.xcassets */,
@@ -424,6 +426,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AutoCalendar/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AutoCalendar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +455,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AutoCalendar/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AutoCalendar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
